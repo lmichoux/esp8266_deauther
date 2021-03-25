@@ -56,6 +56,7 @@
 
 // ========== CONFIGS ========== //
 
+#define DEAUTHER_DISPLAY SSD1306Wire display = SSD1306Wire(0x3c, 4, 5, 16, GEOMETRY_128_32); // for 0.91" OLED
 
 // https://github.com/SpacehuhnTech/esp8266_deauther/wiki/Setup-Display-&-Buttons#example-setup-with-i2c-oled
 #if defined(DISPLAY_EXAMPLE_I2C)
